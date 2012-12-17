@@ -15,15 +15,15 @@ For debugging, netcat, telnet, lynx, and tcpdump may be useful. Here is an [exam
 
 ## Grading Criteria
 * 60 points - functionality
-** 10 points - the program listens on the port specified in `server.conf` for HTTP requests
-** 20 points - the program responds with the contents of the appropriate file when a valid GET request is recieved
-** 10 points - content is served according to the directory structure
-** 10 points - exceptions are properly used (rather than if-statements for everything)
-** 10 points - 404 errors are handled
+ * 10 points - the program listens on the port specified in `server.conf` for HTTP requests
+ * 20 points - the program responds with the contents of the appropriate file when a valid GET request is recieved
+ * 10 points - content is served according to the directory structure
+ * 10 points - exceptions are properly used (rather than if-statements for everything)
+ * 10 points - 404 errors are handled
 * 40 points - code style
-** 10 points - relevent config data is stored in a separate file rather than hard-coded
-** 20 points - the code is modular and separated into different functions, files, and classes as appropriate 
-** 10 points - the program is well documented and the code is commented
+ * 10 points - relevent config data is stored in a separate file rather than hard-coded
+ * 20 points - the code is modular and separated into different functions, files, and classes as appropriate 
+ * 10 points - the program is well documented and the code is commented
 * 10 points - Extra credit: make it multithreaded so it supports multiple connections at once
 
 ## Useful Documentation
